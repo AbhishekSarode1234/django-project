@@ -1,0 +1,15 @@
+body {
+    background-color: rgb(222, 26, 65);
+    text-align:center;
+
+}
+h1 {
+    color: rgb(0, 255, 17);
+    text-align: center;
+
+}
+
+ p {
+    font-family: Verdana,'Times New Roman',serif;
+    font-size: 20px;
+}

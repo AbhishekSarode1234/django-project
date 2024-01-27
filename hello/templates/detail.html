@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% load static %}
+<head><link rel="stylesheet" href="{% static 'style.css' %}"></head>
+{% block body %}
+<h1>{{ mymember.firstname}} {{ mymember.lastname}}
+    {{mymember.rollno}}
+</h1>  
+<a class="btn btn-warning" href="update/{{mymember.id}}">update</a>
+<a class="btn btn-warning" href="delete/{{mymember.id}}">delete</a>
+{% endblock %}     
+
+
